@@ -33,10 +33,10 @@
   </appender>
 
   <logger name="org.jooby.RequestLogger" additivity="false">
-    <appender-ref ref="ACCESS" />
+    <appender-ref ref="ACCESS"/>
   </logger>
 
   <root level="INFO">
-    <appender-ref ref="STDOUT" />
+    <appender-ref ref="STDOUT"/>
   </root>
 </configuration>
